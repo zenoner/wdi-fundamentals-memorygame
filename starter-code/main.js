@@ -1,5 +1,3 @@
-console.log("JS file is connected to HTML! Woo!")
-
 var cardOne = "queen";
 
 var cardTwo = "queen";
@@ -13,3 +11,17 @@ if (cardOne === cardTwo) {
 } else {
 	alert("Sorry, try again!");
 }
+
+//document.getElementById('game-board');
+
+
+var gameBoard = document.getElementById('div');
+
+for (var i = 0; i < gameBoard.length; i++){
+	gameBoard[i].className = 'card'; 
+}
+
+var createBoard = function(){
+	for (var i = 0; i < 4 ; i++){
+	createBoard[i].className = 'card';
+};
