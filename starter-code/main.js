@@ -25,3 +25,21 @@ var createBoard = function(){
 	for (var i = 0; i < 4 ; i++){
 	createBoard[i].className = 'card';
 };
+
+var cards = ['queen', 'queen', 'king', 'king'];
+var cardsInPlay = [];
+var createBoard = function(){
+	for (var i = 0; i < card.length; i++){
+
+	}
+}
+
+var isTwoCards = function() {
+	for (var i=0; i<cards.length; i++){
+
+	}
+}
+
+var isMarch = function(){
+	
+}
